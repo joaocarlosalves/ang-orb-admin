@@ -1,0 +1,54 @@
+.container-btn-main-header {
+    float: right;
+    position: relative;
+}
+
+.container-btn-main-header ul {
+    float: left;
+    width: auto;
+    list-style: none;
+    position: relative;
+}
+
+.container-btn-main-header ul li {
+    float: left;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background: #F5F5F5;
+    border-left: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+    color: #AAAAAA;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.container-btn-main-header ul li a {
+  color: inherit;
+}
+
+.container-btn-main-header ul li fa {
+    float: left;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 10px 20px 0 20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.container-btn-main-header ul li span {
+    float: left;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.container-btn-main-header ul li:hover {
+    color: gray;
+    background: white
+}

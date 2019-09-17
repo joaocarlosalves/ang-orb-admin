@@ -1,0 +1,27 @@
+<div class="row mt50">
+  <div class="container">
+    <button type="button" class="btn-incluir-empresa btn btn-primary" title="Vamos incluir uma empresa?" alt="Vamos incluir uma empresa?" (click)="incluiEmpresa()"><fa name="plus"></fa> Incluir empresa</button>
+  </div>
+  <div class="container">
+    <table class="table tabela-empresas mt10">
+      <thead>
+      <tr>
+        <th scope="col">Empresa</th>
+        <th scope="col">CNPJ</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let empresa of empresas">
+        <input type="hidden" class="id_empresa" val="empresa.name" />
+        <td>{{ empresa.name }}</td>
+        <td>{{ empresa.cnpj }}</td>
+        <td class="container-btn-excluir-empresa">
+          <button type="button" class="btn_editar_empresa" title="Editar essa empresa?" alt="Editar essa empresa?" (click)="editaEmpresa()"><fa name="pencil"></fa></button>
+          <button type="button" class="btn_excluir_empresa" title="Deseja excluir essa empresa?" alt="Deseja excluir essa empresa?" (click)="excluiEmpresa()"><fa name="trash"></fa></button>
+        </td>
+      </tr>
+    </tbody>
+    </table>
+  </div>
+</div>

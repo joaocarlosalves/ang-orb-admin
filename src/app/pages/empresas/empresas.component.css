@@ -1,0 +1,76 @@
+.tabela-empresas {
+  margin: 30px 0 30px 0;
+  text-align: left;
+}
+
+.tabela-empresas thead th {
+  padding: 1em!important;
+}
+
+.tabela-empresas thead {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #5fbb9e;
+  background: -moz-linear-gradient(-45deg, #5fbb9e 0%, #297faf 100%);
+  background: -webkit-linear-gradient(-45deg, #5fbb9e 0%,#297faf 100%);
+  background: linear-gradient(135deg, #5fbb9e 0%,#297faf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fbb9e', endColorstr='#297faf',GradientType=1 );
+}
+
+.tabela-empresas tbody td {
+  padding: 20px 15px 12px 15px;
+}
+
+.container-btn-excluir-empresa {
+  width: 95px;
+  padding: 15px 15px 12px 15px!important;
+  border-left: 1px solid #e9ecef;
+}
+
+.btn-excluir-mini,
+.btn_excluir_empresa {
+  background: red;
+  width: 27px;
+  height: 27px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  line-height: 27px;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.btn-excluir-mini:hover,
+.btn_excluir_empresa:hover {
+  border: 1px solid red;
+  background: white;
+  color: red;
+}
+
+.btn_editar_empresa {
+  margin-right: 5px;
+  background: orange;
+  width: 27px;
+  height: 27px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  line-height: 27px;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.btn_editar_empresa:hover {
+  border: 1px solid orange;
+  background: white;
+  color: orange;
+}
+
+.btn-incluir-empresa {
+  float: left;
+}

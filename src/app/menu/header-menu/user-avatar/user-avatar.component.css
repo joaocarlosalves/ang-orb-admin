@@ -1,0 +1,55 @@
+
+
+.avatar-usuario-header {
+    float: right;
+    position: relative;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.count-user-notifications {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    color:white;
+    background: green;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 500px;
+    box-shadow: -1px 3px 2px black;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.avatar-header {
+    border-radius: 500px;
+    height: 50px;
+    height: 50px;
+    padding: 2px;
+    background: transparent;
+    margin: 5px;
+    border: 1px solid white;
+    transition: all .2s ease;
+}
+
+.avatar-header:hover {
+    transform: scale(1.1);
+}
+
+
+.ct-txt-nome-usuario-header {
+    float: left;
+    position: relative;
+    line-height: 60px;
+    height: 60px;
+    color: white;
+    margin-right: 5px;
+}
+
+.txt-nome-usuario-header {
+
+}

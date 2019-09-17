@@ -1,0 +1,32 @@
+<div class="container-login">
+    <form id="form-login">
+       <div class="logo-login">
+           <img src="assets/img/logo-orbitall.png" />
+       </div>
+
+       <div class="line-input mt80 mb20">
+            <label>LOGIN</label>
+            <input type="text" class="input-login" name="user-login" [(ngModel)]="usuario.userLogin" />
+       </div>
+
+       <div class="line-input mb20">
+            <label>SENHA</label>
+            <input type="password" class="input-login" name="user-pass" [(ngModel)]="usuario.userPass"/>
+       </div>
+
+      <div class="line-input mt10 mb20">
+         <div class="alert alert-danger alert-dismissible" id="msg-erro-login">
+            Erro no login...
+         </div>
+       </div>
+
+       <div class="line-input mt20 mb20">
+            <button type="button" class="btn-login btn btn-success" (click)="login()">ENTRAR</button>
+       </div>
+
+       <div class="line-input">
+            <a href="" class="btn-esqueci-senha" (click)="esqueciSenha()">ESQUECI MINHA SENHA</a>
+       </div>
+
+    </form>
+</div>

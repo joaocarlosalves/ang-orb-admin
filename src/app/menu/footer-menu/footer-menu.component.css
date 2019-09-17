@@ -1,0 +1,14 @@
+#footer-menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding: 5px;
+  width: 23%;
+  display: inline-block;
+  height: 30px;
+  font-size: 12px;
+  line-height: 20px;
+  background: rgba(0, 0, 0, 0.1);
+}
